@@ -4,7 +4,6 @@ const express = require("express");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const Blog = require(path.join(__dirname, "./models/blog-model"));
 const userRouter = require(path.join(__dirname, "./routes/user-route"));
 const homeRouter = require(path.join(__dirname, "./routes/home-route"));
 const blogRouter = require(path.join(__dirname, "./routes/blog-route"));
